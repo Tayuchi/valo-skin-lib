@@ -22,26 +22,49 @@ type apiLevel struct {
 }
 
 type skinData struct {
-	Name  string
-	Icon  string
-	Video *string
+	Name  string  `json:"name"`
+	Icon  string  `json:"icon"`
+	Video *string `json:"video"`
 }
 
 type skinDataList struct {
-	Skins []skinData
+	Skins []skinData `json:"skins"`
 }
 
-type Model struct {
+type SkinService struct {
 	SkinListURL string
+	cache       *skinDataList
+	cacheErr    error
 }
 
-func newModel(skinListURL string) Model {
-	return Model{
+func NewSkinService(skinListURL string) SkinService {
+	s := SkinService{
 		SkinListURL: skinListURL,
 	}
+
+	s.refreshCache()
+	go func() {
+		ticker := time.NewTicker(time.Hour)
+		defer ticker.Stop()
+		for range ticker.C {
+			s.refreshCache()
+		}
+	}()
+
+	return s
 }
 
-func (m *Model) GetSkinDataList() (*skinDataList, error) {
+func (s *SkinService) refreshCache() {
+	data, err := s.GetSkinDataListFromAPI()
+	s.cache = data
+	s.cacheErr = err
+}
+
+func (s *SkinService) GetSkinDataList() (*skinDataList, error) {
+	return s.cache, s.cacheErr
+}
+
+func (m *SkinService) GetSkinDataListFromAPI() (*skinDataList, error) {
 	// リクエスト
 	client := http.Client{
 		Timeout: time.Second * 5,
