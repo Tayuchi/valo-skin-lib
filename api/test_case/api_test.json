@@ -1,0 +1,128 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "uuid": "89be9866-4807-6235-2a95-499cd23828df",
+      "displayName": "アルティチュード オーディン",
+      "themeUuid": "537e0587-416c-f8f3-965c-bba3508156d7",
+      "contentTierUuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/89be9866-4807-6235-2a95-499cd23828df/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Airplane/HMG_Airplane_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "092a25a4-422f-f577-37ac-26a5d489c155",
+          "displayName": "アルティチュード オーディン",
+          "displayIcon": null,
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/092a25a4-422f-f577-37ac-26a5d489c155/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Airplane/Chromas/Standard/HMG_Airplane_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "578e9077-4f88-260c-e54c-b988425c60e4",
+          "displayName": "アルティチュード オーディン",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/578e9077-4f88-260c-e54c-b988425c60e4/displayicon.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Airplane/Levels/HMG_Airplane_Lv1_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "94c085e6-48e1-c879-2552-88bf7850c5a8",
+      "displayName": "ゼノハンター オーディン",
+      "themeUuid": "c251784d-40c3-0d8e-85f4-9da6ff3bc073",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/94c085e6-48e1-c879-2552-88bf7850c5a8/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Alien/HMG_Alien_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "3cc39f94-443e-e0e1-39be-21a9c9f3b0aa",
+          "displayName": "ゼノハンター オーディン",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/3cc39f94-443e-e0e1-39be-21a9c9f3b0aa/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/3cc39f94-443e-e0e1-39be-21a9c9f3b0aa/fullrender.png",
+          "swatch": null,
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Alien/Chromas/Standard/HMG_Alien_Standard_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "89baf0f4-4648-69fc-f0af-2fbc69b97b80",
+          "displayName": "ゼノハンター オーディン",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/89baf0f4-4648-69fc-f0af-2fbc69b97b80/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-10.10/32f7797f-4491-e21f-e40b-cfb639df3c97_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Alien/Levels/HMG_Alien_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "289d7473-472b-68da-9019-da9594a8a127",
+          "displayName": "ゼノハンター オーディン Lv.2",
+          "levelItem": "EEquippableSkinLevelItem::HeartbeatAndMapSensor",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-10.10/bd9d37c4-4f6f-3766-c134-30b6782e714f_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Alien/Levels/HMG_Alien_Lv2_PrimaryAsset"
+        }
+      ]
+    },
+    {
+      "uuid": "a67c2daa-4f4d-1af0-0ff4-6fafde471776",
+      "displayName": "ネプチューン オーディン",
+      "themeUuid": "292ef4b1-43d5-358c-32e5-04805a154acd",
+      "contentTierUuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+      "displayIcon": "https://media.valorant-api.com/weaponskins/a67c2daa-4f4d-1af0-0ff4-6fafde471776/displayicon.png",
+      "wallpaper": null,
+      "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Aquarium2/HMG_Aquarium2_PrimaryAsset",
+      "chromas": [
+        {
+          "uuid": "104e376c-4313-faf7-29b9-868caa2c7e83",
+          "displayName": "ネプチューン オーディン",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/104e376c-4313-faf7-29b9-868caa2c7e83/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/104e376c-4313-faf7-29b9-868caa2c7e83/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/104e376c-4313-faf7-29b9-868caa2c7e83/swatch.png",
+          "streamedVideo": null,
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Aquarium2/Chromas/Standard/HMG_Aquarium2_Standard_PrimaryAsset"
+        },
+        {
+          "uuid": "ac845334-4df4-8f44-443c-4b93ebfffdc4",
+          "displayName": "ネプチューン オーディン Lv.3\n(ヴァリアント 1 ブラック)",
+          "displayIcon": "https://media.valorant-api.com/weaponskinchromas/ac845334-4df4-8f44-443c-4b93ebfffdc4/displayicon.png",
+          "fullRender": "https://media.valorant-api.com/weaponskinchromas/ac845334-4df4-8f44-443c-4b93ebfffdc4/fullrender.png",
+          "swatch": "https://media.valorant-api.com/weaponskinchromas/ac845334-4df4-8f44-443c-4b93ebfffdc4/swatch.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-10.10/f25d7e3e-43ba-98a3-c944-58af9608d0db_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Aquarium2/Chromas/v1/HMG_Aquarium2_v1_PrimaryAsset"
+        }
+      ],
+      "levels": [
+        {
+          "uuid": "c96d991e-4807-5eee-0289-90b82f9be205",
+          "displayName": "ネプチューン オーディン",
+          "levelItem": null,
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/c96d991e-4807-5eee-0289-90b82f9be205/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-10.10/b794b134-42d6-3138-188d-66a940a66304_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Aquarium2/Levels/HMG_Aquarium2_Lv1_PrimaryAsset"
+        },
+        {
+          "uuid": "5c9caac6-4be4-6dd1-7350-d5ac1ef10530",
+          "displayName": "ネプチューン オーディン Lv.2",
+          "levelItem": "EEquippableSkinLevelItem::SoundEffects",
+          "displayIcon": "https://media.valorant-api.com/weaponskinlevels/5c9caac6-4be4-6dd1-7350-d5ac1ef10530/displayicon.png",
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-10.10/173af779-473b-b33b-8a85-899603987aae_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Aquarium2/Levels/HMG_Aquarium2_Lv2_PrimaryAsset"
+        },
+        {
+          "uuid": "a40c3bb0-46d1-be46-42ad-71bce3e7cd66",
+          "displayName": "ネプチューン オーディン Lv.3",
+          "levelItem": "EEquippableSkinLevelItem::Finisher",
+          "displayIcon": null,
+          "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-10.10/14386128-47e5-8942-e4ed-f397d89a4650_default_universal.mp4",
+          "assetPath": "ShooterGame/Content/Equippables/Guns/HvyMachineGuns/HMG/Aquarium2/Levels/HMG_Aquarium2_Lv3_PrimaryAsset"
+        }
+      ]
+    }
+  ]
+}
